@@ -37,3 +37,5 @@ FROM base
 LABEL org.opencontainers.image.source=https://github.com/yuriy-martini/laravel-demo
 
 COPY --from=vendor /var/www /var/www
+
+ENTRYPOINT [ "/var/www/docker/entrypoint.sh", "php-fpm" ]
