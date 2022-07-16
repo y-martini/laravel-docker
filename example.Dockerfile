@@ -38,4 +38,4 @@ LABEL org.opencontainers.image.source=https://github.com/yuriy-martini/laravel-d
 
 COPY --from=vendor /var/www /var/www
 
-ENTRYPOINT [ "/var/www/docker/entrypoint.sh", "php-fpm" ]
+ENTRYPOINT [ "/var/www/docker/entrypoint.sh" ]
