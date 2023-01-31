@@ -1,3 +1,7 @@
+This repository has been archived, please use https://github.com/webfucktory/laravel-docker-template instead.
+
+---
+
 [Documentation](https://docs.docker.com/)
 
 ## Build
